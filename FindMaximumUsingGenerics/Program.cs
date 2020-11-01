@@ -6,7 +6,8 @@ namespace FindMaximumUsingGenerics
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Generics");
+            FindMaximum find = new FindMaximum();
+            Console.WriteLine(find.MaximumIntegerNumber(10, 20, 30));
         }
     }
 }
